@@ -68,6 +68,20 @@ h2{
     border-image: linear-gradient(rgb(0, 255, 170),rgb(255, 0, 128));
     border-image-slice: 1;
 }
-footer p {
-   text-align: center;
+footer p{
+    text-align: center;
+}
+.glow img {
+    width: 100%;
+    height: auto;
+
+    -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+            -o-transition: all 0.5s ease-in-out;
+                transition: all 0.5s ease-in-out;  
+}
+.glow img:hover {
+    width: 110%;
+    height: auto;
+    opacity: 1;
 }
