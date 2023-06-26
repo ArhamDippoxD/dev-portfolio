@@ -4,17 +4,23 @@ body{
 }
 h1{
     font-size: 50px;
+   
+}
+h2{
+    font-size: 40px;
+    color: rgba(28, 165, 119, 0.815);
 }
 .colorme{
     color: rgb(129, 41, 211);
 }
-section{
+.flexible{
     display: flex;
     margin-bottom: 85px;
 }
 .half-width{
     width:50%;
-    padding:4%
+    padding:4%;
+
 }
 .half-width img{
     width:90%;
@@ -37,4 +43,31 @@ section{
     background-repeat: no-repeat;
     background-position: right;
    background-position-y: bottom;
+}
+.exp-item{
+    width: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 8px;
+    
+}
+.exp-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left ;
+}
+#web-dev{
+    border-left:7px solid;
+    border-image: linear-gradient(rgb(229, 255, 0),cyan);
+    border-image-slice: 1;
+}
+#full-dev{
+    border-left:7px solid;
+    border-image: linear-gradient(rgb(0, 255, 170),rgb(255, 0, 128));
+    border-image-slice: 1;
+}
+footer p {
+   text-align: center;
 }
